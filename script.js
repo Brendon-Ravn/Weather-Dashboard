@@ -44,11 +44,11 @@ function crrntWeather(town){
 
         var tempF = (response.main.temp - 273.15) * 1.80 + 32;
 
-        $(crrntT).html((tempF).toFixed(2) + "&#8457");
+        $(crrntT).html((tempF).toFixed(1) + "&#8457");
         $(crrntH).html(response.main.humidity + "%");
         
         var ws = response.wind.speed;
-        var wsMph = (ws * 2.237).toFixed(1);
+        var wsMph = (ws * 2.237).toFixed(2);
         $(crrntWs).html(wsMph + "mph");
         
         UVIndex(response.coord.lon,response.coord.lat);

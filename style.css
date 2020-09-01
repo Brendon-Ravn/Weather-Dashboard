@@ -17,6 +17,10 @@ h1 {
     color: cadetblue;
 }
 
+#uvindex {
+    color: red;
+}
+
 li:hover{
     background-color: yellow;
 }
