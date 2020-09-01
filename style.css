@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: powderblue;
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;  
+}
+
+h3{
+    font-weight: bold;
+}
+
+h1 {
+    background-color: black;
+    color: cadetblue;
+}
+
+li:hover{
+    background-color: yellow;
+}
+
+.current {
+    background-color: cadetblue;
+}
+
+.forecast{
+    
+    font-size: 0.8em;
+}
+
+span{
+    font-size: 1em;
+}
